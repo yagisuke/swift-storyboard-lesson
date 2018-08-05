@@ -19,18 +19,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2H-cT-MvF">
-                                <rect key="frame" x="137.5" y="308.5" width="100" height="50"/>
+                                <rect key="frame" x="225" y="517" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.86468529370000002" green="0.03290480774" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Ac5-70-RKc"/>
-                                    <constraint firstAttribute="height" constant="50" id="ePd-Gv-wTc"/>
+                                    <constraint firstAttribute="width" constant="100" id="H0E-v1-Js3"/>
+                                    <constraint firstAttribute="height" constant="100" id="Xgz-b7-Txa"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="U2H-cT-MvF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="21k-W7-tfJ"/>
-                            <constraint firstItem="U2H-cT-MvF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="J8m-L6-6oN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U2H-cT-MvF" secondAttribute="trailing" constant="50" id="MD5-1F-fRP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U2H-cT-MvF" secondAttribute="bottom" constant="50" id="NJE-1o-Zcm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
