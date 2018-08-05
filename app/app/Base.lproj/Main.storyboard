@@ -20,9 +20,28 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oyd-I7-hCk" userLabel="header">
                                 <rect key="frame" x="30" y="50" width="315" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tGD-xz-Gsx">
+                                        <rect key="frame" x="10" y="15" width="237" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcF-Fl-e93">
+                                        <rect key="frame" x="257" y="15" width="48" height="30"/>
+                                        <state key="normal" title="Search">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.86468529370000002" green="0.03290480774" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="89B-Ji-Bco"/>
+                                    <constraint firstItem="xcF-Fl-e93" firstAttribute="centerY" secondItem="Oyd-I7-hCk" secondAttribute="centerY" id="Il3-8Y-ghp"/>
+                                    <constraint firstItem="tGD-xz-Gsx" firstAttribute="leading" secondItem="Oyd-I7-hCk" secondAttribute="leading" constant="10" id="Jes-DK-Phv"/>
+                                    <constraint firstAttribute="trailing" secondItem="xcF-Fl-e93" secondAttribute="trailing" constant="10" id="S3U-dH-054"/>
+                                    <constraint firstItem="xcF-Fl-e93" firstAttribute="leading" secondItem="tGD-xz-Gsx" secondAttribute="trailing" constant="10" id="VeD-ag-s6I"/>
+                                    <constraint firstItem="tGD-xz-Gsx" firstAttribute="centerY" secondItem="Oyd-I7-hCk" secondAttribute="centerY" id="qX6-jP-vOC"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aS1-aF-Lfv" userLabel="main">
